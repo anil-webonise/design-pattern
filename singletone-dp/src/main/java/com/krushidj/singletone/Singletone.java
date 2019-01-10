@@ -1,11 +1,13 @@
 package com.krushidj.singletone;
 
+import com.krushidj.util.ServiceConsumerImpl;
+
 /**
  * @author Anil D. Ingle
  * @date 07-Jan-2019
  */
 
-public class Singletone extends Demo{
+public class Singletone extends ServiceConsumerImpl {
     private static volatile Singletone instance;
     private static boolean isInstantiated = false;
 
