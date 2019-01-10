@@ -1,4 +1,4 @@
-package com.krushidj.singletone;
+package com.krushidj.util;
 
 import java.io.Serializable;
 /**
@@ -7,7 +7,7 @@ import java.io.Serializable;
  * @author Anil D. Ingle
  * @date 07-Jan-2019
  */
-public class Demo implements Cloneable , Serializable {
+public class ServiceConsumerImpl implements Cloneable , Serializable {
 
     private static final long serialVersionUID=2L;
 

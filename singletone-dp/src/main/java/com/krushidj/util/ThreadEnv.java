@@ -1,4 +1,6 @@
-package com.krushidj.singletone;
+package com.krushidj.util;
+
+import com.krushidj.singletone.Singletone;
 
 /**
  * This class implement Runnable Interface for gives feeling Multithreadeing.
@@ -6,7 +8,7 @@ package com.krushidj.singletone;
  * @author Anil D. Ingle
  * @date 07-Jan-2019
  */
-public class MultiThreadingTest implements Runnable {
+public class ThreadEnv implements Runnable {
     // setting logic for Runnable interface method.
     public void run() {
         Singletone singletone = null;
